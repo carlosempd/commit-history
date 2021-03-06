@@ -13,7 +13,6 @@ import { HomeComponent } from './components/home/home.component';
 // Services
 import { GithubService } from 'src/app/services/github.service';
 import { LoadingComponent } from './components/shared/loading/loading.component';
-import { SearchComponent } from './components/shared/search/search.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +21,6 @@ import { SearchComponent } from './components/shared/search/search.component';
     NavbarComponent,
     HomeComponent,
     LoadingComponent,
-    SearchComponent,
   ],
   imports: [
     BrowserModule,
