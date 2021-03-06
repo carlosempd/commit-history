@@ -8,8 +8,14 @@ import { GithubService } from 'src/app/services/github.service';
 })
 export class CommitsComponent implements OnInit {
 
+  commits: any[] = [];
+
   constructor(private githubService: GithubService) { 
-    this.githubService.getCommitHistory();
+    this.githubService.getCommitHistory().subscribe( (data: any[]) => {
+      console.log(data)
+      this.commits = data;
+
+    });
   }
 
   ngOnInit(): void {

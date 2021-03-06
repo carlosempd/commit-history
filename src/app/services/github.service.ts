@@ -15,9 +15,9 @@ export class GithubService {
         'Accept': 'application/vnd.github.v3+json' 
       });
 
-      this.http.get(
+       return this.http.get(
         `https://api.github.com/repos/carlosempd/commit-history/commits`,
         { headers }
-      ).subscribe( resp => console.log(resp))
+      );
     }
 }
