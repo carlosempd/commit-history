@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { GithubService } from 'src/app/services/github.service';
 
 @Component({
   selector: 'app-commits',
@@ -7,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CommitsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private githubService: GithubService) { 
+    this.githubService.getCommitHistory();
+  }
 
   ngOnInit(): void {
   }
