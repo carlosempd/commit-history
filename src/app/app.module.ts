@@ -12,6 +12,7 @@ import { HomeComponent } from './components/home/home.component';
 
 // Services
 import { GithubService } from 'src/app/services/github.service';
+import { LoadingComponent } from './components/shared/loading/loading.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { GithubService } from 'src/app/services/github.service';
     CommitsComponent,
     NavbarComponent,
     HomeComponent,
+    LoadingComponent,
   ],
   imports: [
     BrowserModule,
