@@ -9,11 +9,16 @@ import { GithubService } from 'src/app/services/github.service';
 export class CommitsComponent implements OnInit {
 
   commits: any[] = [];
+  loading = false;
 
   constructor(private githubService: GithubService) { 
+
+    this.loading = true;
+
     this.githubService.getCommitHistory().subscribe( (data: any[]) => {
       console.log(data)
       this.commits = data;
+      this.loading = false;
 
     });
   }
