@@ -36,15 +36,37 @@
       <tbody>
         <tr *ngFor="let commit of searchCommits; let i = index">
           <th scope="row">{{ i +1  }}</th>
-          <td>
+
+          <td role="button" [swal]="showAuthor">
               <img [src]="commit.author.avatar_url" class="img-author" width="30" height="30" alt="Author Image"> 
               {{ commit.author.login }}
+              
+              <swal
+                #showAuthor
+                title="Author Information: "
+                imageUrl="{{ commit.author.avatar_url }}"
+                imageWidth="150"
+                imageHeight="150"
+                
+                html="
+                  <ul class='text-left ml-2'>
+                    <li><strong>Name</strong>:  {{ commit.commit.author.name }}</li>
+                    <li><strong>Username</strong>:  {{ commit.author.login }}</li>
+                    <li><strong>Email</strong>:  {{ commit.commit.author.email }}</li>
+                    <li><strong>Github url</strong>: {{ commit.author.html_url }} </li>
+                  </ul>
+                "
+                icon="info"
+                [focusCancel]="true"
+                >
+              </swal>
           </td>
+
+
           <td class="text-secondary">{{ commit.commit.message }}</td>
+          
           <td>{{ commit.commit.author.date | date:'medium' }}</td>
         </tr>
       </tbody>
     </table>
-
 </div>
-

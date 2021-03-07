@@ -15,10 +15,10 @@ As mentioned, this project was generated with Angular Cli, so you must instal An
 You must instal nodeJs also. [Node JS - Documentation](https://nodejs.org/en/) 
 
 
-1- Clone or Download this project
-2- Open a terminal and then navigate to the project. For example: ```cd documents/{project-name} ```
-3- Instal node modules using ``` npm install ```
-4 - Run the Development Server as follows.
+1- Clone or Download this project.  
+2- Open a terminal and then navigate to the project. For example: ```cd documents/{project-name} ```. 
+3- Instal node modules using ``` npm install ```.  
+4 - Run the Development Server as follows.  
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
