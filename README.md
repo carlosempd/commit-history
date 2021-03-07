@@ -5,7 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 This little web app allows to see the commit history of this project.
 It is conformed by two routes: a Home page and a Commits page, both of the accessible from the navbar.
 
-The commits page is where the commits are displayed. There is a search input to filter the commits by message using phrases or words.
+The commits page is where the commits are displayed using a bootstrap table and if you click on the author image or username a pop up will show more information about the committer. 
+There is a search input to filter the commits by message using phrases or words.
 
 The styles of this project was implemented with bootstrap.
 
