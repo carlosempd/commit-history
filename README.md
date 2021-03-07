@@ -16,7 +16,7 @@ As mentioned, this project was generated with Angular Cli, so you must install A
 You must install nodeJs also. [Node JS - Documentation](https://nodejs.org/en/) 
 
 
-1- Clone or Download this project. In a terminal run ```git clone https://github.com/carlosempd/commit-history.git``` 
+1- Clone or Download this project. In a terminal run ```git clone https://github.com/carlosempd/commit-history.git```  
 2- Open a terminal and then navigate to the project. For example: ```cd documents/{project-name} ```. 
 3- Install node modules using ``` npm install ```.  
 4 - Run the Development Server as follows.  
