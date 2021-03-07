@@ -7,7 +7,6 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class GithubService {
 
   constructor( private http: HttpClient) {
-    console.log('github service ready')
    }
 
    getCommitHistory() {

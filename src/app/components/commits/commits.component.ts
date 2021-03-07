@@ -17,7 +17,6 @@ export class CommitsComponent implements OnInit {
     this.loading = true;
 
     this.githubService.getCommitHistory().subscribe( (data: any[]) => {
-      console.log(data)
       this.searchCommits = data;
       this.allCommits = data;
       this.loading = false;
