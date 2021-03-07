@@ -11,14 +11,14 @@ There is a search input to filter the commits by message using phrases or words.
 The styles of this project was implemented with bootstrap.
 
 ## Guide
-As mentioned, this project was generated with Angular Cli, so you must instal Angular in order to be able to run the project. Please follow the link above to see the installation instructions.
+As mentioned, this project was generated with Angular Cli, so you must install Angular in order to be able to run the project. Please follow the link above to see the installation instructions.
 
 You must install nodeJs also. [Node JS - Documentation](https://nodejs.org/en/) 
 
 
 1- Clone or Download this project.  
 2- Open a terminal and then navigate to the project. For example: ```cd documents/{project-name} ```. 
-3- Instal node modules using ``` npm install ```.  
+3- Install node modules using ``` npm install ```.  
 4 - Run the Development Server as follows.  
 ## Development server
 
