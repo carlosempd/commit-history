@@ -13,7 +13,7 @@ The styles of this project was implemented with bootstrap.
 ## Guide
 As mentioned, this project was generated with Angular Cli, so you must instal Angular in order to be able to run the project. Please follow the link above to see the installation instructions.
 
-You must instal nodeJs also. [Node JS - Documentation](https://nodejs.org/en/) 
+You must install nodeJs also. [Node JS - Documentation](https://nodejs.org/en/) 
 
 
 1- Clone or Download this project.  
